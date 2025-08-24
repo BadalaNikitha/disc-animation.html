@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotating Disc</title>
+  <style>
+    .disc img {
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      animation: cd 5s linear infinite;
+    }
+
+    @keyframes cd {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .disc {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+    }
+  </style>
+</head>
+<body style="background-color: white;">
+  <div class="disc">
+    <img src="https://media.baamboozle.com/uploads/images/311206/1627541088_163438_gif-url.gif" alt="rotating disc">
+  </div>
+</body>
+</html>
+ 
+
+
+
